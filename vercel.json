@@ -1,6 +1,6 @@
 {
   "rewrites": [
-    {"source": "/proxy/https://([a-zA-Z\.]+)/([a-zA-Z\.]+)", "destination": "https://$1/$2"},
-    {"source": "/proxy/http://([a-zA-Z\.]+)/([a-zA-Z\.]+)", "destination": "http://$1/$2"}
+    {"source": "/proxy/https://(.*)", "destination": "https://$1"},
+    {"source": "/proxy/http://(.*)", "destination": "http://$1"}
   ]
 }
