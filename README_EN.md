@@ -1,5 +1,5 @@
 # vercel-reverse-proxy
-[English README](./README.md)
+[简体中文](./README.md)
 
 This project is a Vercel reverse proxy. It's completely free and an all-purpose proxy that can handle all interfaces on the internet, including OpenAI, GitHub, Google, and more. Both HTTP and HTTPS interfaces as well as single pages can be proxied and used in poor network environments. (When accessing the proxy page directly from a browser, some JS and CSS paths may not work correctly causing access issues and minor styling problems.)
 ## Deploy
