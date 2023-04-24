@@ -15,6 +15,7 @@
 
 3 访问 域名/proxy/url  或者/httpproxy/url即可。
 映射规则为/proxy/url映射到https接口，/httpproxy/url映射到http接口
+
 例1 访问https://替换为你自己的域名.com/proxy/api.openai.com/v1/chat/completions 
 实际上会替换为https://api.openai.com/v1/chat/completions
 ![demo1](img/demo1.png)
