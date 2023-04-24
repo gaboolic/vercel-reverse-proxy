@@ -23,3 +23,8 @@ vercel反向代理，可代理一切接口，包括openai、github等等
 实际上会替换为https://raw.githubusercontent.com/gaboolic/vercel-reverse-proxy/main/vercel.json
 ![demo2](img/demo2.png)
 映射规则为/proxy/url映射到https接口，/httpproxy/url映射到http接口
+
+例3 访问https://替换为你自己的域名.com/proxy/www.google.com/search?q=vercel-reverse-proxy
+实际上会替换为https://www.google.com/search?q=vercel-reverse-proxy
+![demo3](img/demo3.png)
+代理google搜索结果页面
