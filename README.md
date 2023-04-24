@@ -11,4 +11,5 @@ vercel反向代理
 2 绑定自己的域名(不是必须，使用vercel自带的子域名也可以，但是自带的域名vercel.app在国内网络环境不好的情况下不可用)
 
 
-3 访问 域名/proxy/url即可。例如访问https://替换为你自己的域名.com/proxy/api.openai.com/v1/chat/completions，实际上会替换为https://api.openai.com/v1/chat/completions
+3 访问 域名/proxy/url即可。例如访问https://替换为你自己的域名.com/proxy/api.openai.com/v1/chat/completions 
+实际上会替换为https://api.openai.com/v1/chat/completions
