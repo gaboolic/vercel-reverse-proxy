@@ -1,31 +1,34 @@
 # vercel-reverse-proxy
-本项目是vercel反向代理。完全免费，万能代理，可代理全网一切接口，包括openai、github、google等等。http和https接口、单页面均可代理，在网络环境不好的情况下均可用。（直接浏览器打开代理页面的情况下，由于某些js和css的路径可能会不对造成访问不到，页面样式有点小问题。）
+[English README](./README_EN.md)
 
-## 部署
+This project is a Vercel reverse proxy. It's completely free and an all-purpose proxy that can handle all interfaces on the internet, including OpenAI, GitHub, Google, and more. Both HTTP and HTTPS interfaces as well as single pages can be proxied and used in poor network environments. (When accessing the proxy page directly from a browser, some JS and CSS paths may not work correctly causing access issues and minor styling problems.)
+## Deploy
 [![Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/gaboolic/vercel-reverse-proxy)
 
 
-## 使用方法
-1 部署。部署有两种方法，一是直接点击上方按钮一键部署，二是可以先fork本项目，再登录[vercel](https://vercel.com/)网站新建
-![新建项目](img/newproject.png)
+## How to Use
+1 Deployment. There are two methods for deployment: one is to directly click the button above for one-click deployment, and the other is to first fork this project and then log in [vercel](https://vercel.com/) to create new one.
+![new project](img/newproject.png)
 
-2 绑定自己的域名(不是必须，使用vercel自带的子域名也可以，但是自带的域名vercel.app在国内网络环境不好的情况下不可用)
-![绑定域名](img/domain.png)
-绑定域名时按照vercel上的说明配置即可，其实就是在你的域名上配了一个子域名，cname到vercel服务器
+2 Bind your own domain name (not mandatory, you can also use Vercel's built-in subdomain, but the built-in domain vercel.app may not be accessible in poor network conditions in China).
+![domain](img/domain.png)
+When binding a domain, simply follow the instructions on Vercel to configure it. Essentially, you are setting up a subdomain on your domain and pointing its CNAME record to the Vercel server.
+3 To visit the https://yourdomain.com/proxy/url, or https://yourdomain.com/httpproxy/url.
+The mapping rule is to map /proxy/url to the https interface, and /httpproxy/url to the http interface.
 
-3 访问 域名/proxy/url  或者/httpproxy/url即可。
-映射规则为/proxy/url映射到https接口，/httpproxy/url映射到http接口
 
-例1 访问https://替换为你自己的域名.com/proxy/api.openai.com/v1/chat/completions 
-实际上会替换为https://api.openai.com/v1/chat/completions
+demo1: visit https://yourdomain.com/proxy/api.openai.com/v1/chat/completions
+Actually will be replaced with https://api.openai.com/v1/chat/completions
 ![demo1](img/demo1.png)
 
-例2 访问https://替换为你自己的域名.com/proxy/raw.githubusercontent.com/gaboolic/vercel-reverse-proxy/main/vercel.json
-实际上会替换为https://raw.githubusercontent.com/gaboolic/vercel-reverse-proxy/main/vercel.json
+demo2: visit https://yourdomain.com/proxy/raw.githubusercontent.com/gaboolic/vercel-reverse-proxy/main/vercel.json
+Actually will be replaced with https://raw.githubusercontent.com/gaboolic/vercel-reverse-proxy/main/vercel.json
 ![demo2](img/demo2.png)
-映射规则为/proxy/url映射到https接口，/httpproxy/url映射到http接口
+The mapping rule is to map /proxy/url to the https interface, and /httpproxy/url to the http interface.
 
-例3 访问https://替换为你自己的域名.com/proxy/www.google.com/search?q=vercel-reverse-proxy
-实际上会替换为https://www.google.com/search?q=vercel-reverse-proxy
+demo3: visit https://yourdomain.com/proxy/www.google.com/search?q=vercel-reverse-proxy
+Actually will be replaced with https://www.google.com/search?q=vercel-reverse-proxy
 ![demo3](img/demo3.png)
-代理google搜索结果页面
+Reverse proxy Google search results page.
+
+
