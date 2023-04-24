@@ -1,5 +1,5 @@
 # vercel-reverse-proxy
-本项目是vercel反向代理。完全免费，万能代理，可代理全网一切接口，包括openai、github等等。http和https接口、单页面均可代理，在网络环境不好的情况下均可用。（直接代理页面的情况下，js和css的路径不对，会访问不到。）
+本项目是vercel反向代理。完全免费，万能代理，可代理全网一切接口，包括openai、github等等。http和https接口、单页面均可代理，在网络环境不好的情况下均可用。（直接浏览器打开代理页面的情况下，由于某些js和css的路径可能会不对造成访问不到，页面样式有点小问题。）
 
 ## 部署
 [![Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/gaboolic/vercel-reverse-proxy)
