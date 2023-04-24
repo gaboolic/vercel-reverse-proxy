@@ -1,6 +1,8 @@
 {
   "rewrites": [
     { "source": "/proxy/:match/:url*", "destination": "https://:match/:url*" },
-    { "source": "/httpproxy/:match/:url*", "destination": "http://:match/:url*" }
+    { "source": "/httpproxy/:match/:url*", "destination": "http://:match/:url*" },
+    {"source": "/github/(.*)", "destination": "https://github.com/$1"},
+    {"source": "/google/(.*)", "destination": "https://google.com/$1"}
   ]
 }
