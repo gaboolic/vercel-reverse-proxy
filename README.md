@@ -27,7 +27,8 @@
 ![demo2](img/demo2.png)
 映射规则为/proxy/url映射到https接口，/httpproxy/url映射到http接口
 
-也可用于github下载加速。假如原始链接是https://objects.githubusercontent.com/github-production-release-asset-2e65be/xxxxxx,改为https://替换为你自己的域名.com/proxy/objects.githubusercontent.com/github-production-release-asset-2e65be/xxxxxx就可以加速了。下图是github原始链接和加速后对比。可以看到效果杠杠的
+也可用于github下载加速。假如原始链接是https://objects.githubusercontent.com/github-production-release-asset-2e65be/xxxxxx 
+改为https://替换为你自己的域名.com/proxy/objects.githubusercontent.com/github-production-release-asset-2e65be/xxxxxx 就可以加速了。下图是github原始链接和加速后对比。可以看到效果杠杠的
 ![github-download](img/github-download.png)
 
 例3 访问https://替换为你自己的域名.com/proxy/www.google.com/search?q=vercel-reverse-proxy
