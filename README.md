@@ -28,7 +28,7 @@ vercel现在每月有100GB的免费流量。本人又基于[cloudflare](https://
 如何在一些常见的开源项目中使用？
 一般开源项目都是引用的openai的库，可以看到里面有一个属性是api_base = os.environ.get("OPENAI_API_BASE", "https://api.openai.com/v1")
 
-所以使用的时候只需要设置一下openai.api_base="https://你的域名/proxy/https://api.openai.com/v1" 就可以了
+所以使用的时候只需要设置一下openai.api_base="https://你的域名/proxy/api.openai.com/v1" 就可以了
 
 例2 访问https://替换为你自己的域名.com/proxy/raw.githubusercontent.com/gaboolic/vercel-reverse-proxy/main/vercel.json
 实际上会替换为https://raw.githubusercontent.com/gaboolic/vercel-reverse-proxy/main/vercel.json
