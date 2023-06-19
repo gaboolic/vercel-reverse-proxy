@@ -1,7 +1,7 @@
 {
   "rewrites": [
-    { "source": "/proxy/:match/:url*", "destination": "https://:match/:url*" },
-    { "source": "/proxy/:match/:url*/", "destination": "https://:match/:url*/" },
+    { "source": "/cloud/:match/:url*", "destination": "https://:match/:url*" },
+    { "source": "/cloud/:match/:url*/", "destination": "https://:match/:url*/" },
     { "source": "/httpproxy/:match/:url*", "destination": "http://:match/:url*" },
     { "source": "/httpproxy/:match/:url*/", "destination": "http://:match/:url*/" }
   ]
