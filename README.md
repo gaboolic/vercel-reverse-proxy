@@ -10,7 +10,7 @@ vercel现在每月有100GB的免费流量。本人又基于[cloudflare](https://
 
 
 ## 使用方法
-1 部署。部署有两种方法，一是直接点击上方按钮一键部署，二是可以先fork本项目，再登录[vercel](https://vercel.com/)网站新建
+1 部署。部署有两种方法，一是直接点击上方按钮一键部署，二是可以先fork本项目，再登录[vercel](https://vercel.com/)网站新建。vercel可以通过github一键注册只需要绑定手机号支持cn
 ![新建项目](img/newproject.png)
 
 2 绑定自己的域名(不是必须，使用vercel自带的子域名也可以，但是自带的域名vercel.app在国内网络环境不好的情况下不可用) 可以申请[tk免费域名](http://www.dot.tk/)或者薅小域名注册商首年免费羊毛
