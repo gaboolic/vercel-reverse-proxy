@@ -1,5 +1,12 @@
 {
   "rewrites": [
+    { "source": "/https:/:match/:url*", "destination": "https://:match/:url*" },
+    { "source": "/https:/:match/:url*/", "destination": "https://:match/:url*/" },
+    { "source": "/http:/:match/:url*", "destination": "http://:match/:url*" },
+    { "source": "/http:/:match/:url*/", "destination": "http://:match/:url*/" },
+    { "source": "/wss:/:match/:url*", "destination": "wss://:match/:url*" },
+    { "source": "/:protocol/:match/:url*", "destination": ":protocol://:match/:url*" },
+    { "source": "/:protocol/:match/:url*/", "destination": ":protocol://:match/:url*/" },
     { "source": "/:protocol*/:match/:url*", "destination": ":protocol://:match/:url*" },
     { "source": "/:protocol*/:match/:url*/", "destination": ":protocol://:match/:url*/" }
   ]
