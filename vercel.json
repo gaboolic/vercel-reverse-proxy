@@ -1,12 +1,8 @@
 {
   "rewrites": [
     {
-      "source": "/proxy/:protocol\\:/:match/:url*",
-      "destination": ":protocol:////:match/:url*"
-    },
-    {
-      "source": "/proxy/:protocol\\:/:match/:url*/",
-      "destination": ":protocol:////:match/:url*/"
+      "source": "/proxy/https\\://:match/:url*",
+      "destination": "https://:match/:url*"
     }
   ]
 }
