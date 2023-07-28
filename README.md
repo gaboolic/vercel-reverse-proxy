@@ -26,7 +26,7 @@ vercel可以通过github一键注册只需要绑定手机号支持cn
 ![绑定域名](img/domain.png)
 绑定域名时按照vercel上的说明配置即可，其实就是在你的域名上配了一个子域名，cname到vercel服务器
 
-3 访问 `域名/proxy/https://url` 即可访问到`https://url`
+3 访问 `域名/proxy/https://url` 即可访问到`https://url`了
 
 ## 示例
 
