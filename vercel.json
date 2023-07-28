@@ -1,7 +1,7 @@
 {
   "rewrites": [
     {
-      "source": "/proxy/https\\://:match/:url*",
+      "source": "/proxy/https\\:/:match/:url*",
       "destination": "https://:match/:url*"
     }
   ]
