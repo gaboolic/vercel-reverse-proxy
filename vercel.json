@@ -1,0 +1,24 @@
+{
+  "rewrites": [
+    { "source": "/jsd/:match/:url*", "destination": "https://cdn.jsdelivr.net/:match/:url*" },
+    { "source": "/jsd/:match/:url*/", "destination": "https://cdn.jsdelivr.net/:match/:url*/" },
+    { "source": "/goog/ajax/:match/:url*", "destination": "https://ajax.googleapis.com/:match/:url*" },
+    { "source": "/goog/ajax/:match/:url*/", "destination": "https://ajax.googleapis.com/:match/:url*/" },
+    { "source": "/goog/fonts/:match/:url*", "destination": "https://fonts.googleapis.com/:match/:url*" },
+    { "source": "/goog/fonts/:match/:url*/", "destination": "https://fonts.googleapis.com/:match/:url*/" },
+    { "source": "/goog/themes/:match/:url*", "destination": "https://themes.googleusercontent.com/:match/:url*" },
+    { "source": "/goog/themes/:match/:url*/", "destination": "https://themes.googleusercontent.com/:match/:url*/" },
+    { "source": "/cdnjs/ajax/:match/:url*", "destination": "https://cdnjs.cloudflare.com/:match/:url*" },
+    { "source": "/cdnjs/ajax/:match/:url*/", "destination": "https://cdnjs.cloudflare.com/:match/:url*/" },
+    { "source": "/goog-gs/www/:match/:url*", "destination": "https://www.gstatic.com/:match/:url*" },
+    { "source": "/goog-gs/www/:match/:url*/", "destination": "https://www.gstatic.com/:match/:url*/" },
+    { "source": "/goog-gs/fonts/:match/:url*", "destination": "https://fonts.gstatic.com/:match/:url*" },
+    { "source": "/goog-gs/fonts/:match/:url*/", "destination": "https://fonts.gstatic.comm/:match/:url*/" },
+    { "source": "/grava/avatar/:match/:url*", "destination": "https://secure.gravatar.com/:match/:url*" },
+    { "source": "/grava/avatar/:match/:url*/", "destination": "https://secure.gravatar.com/:match/:url*/" },
+    { "source": "/gith/raw/:match/:url*", "destination": "https://raw.githubusercontent.com/:match/:url*" },
+    { "source": "/gith/raw/:match/:url*/", "destination": "https://raw.githubusercontent.com/:match/:url*/" },
+    { "source": "/gith/release/:match/:url*", "destination": "https://github.com/:match/:url*" },
+    { "source": "/gith/release/:match/:url*/", "destination": "https://github.com/:match/:url*/" }
+  ]
+}
