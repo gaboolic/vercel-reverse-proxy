@@ -1,3 +1,5 @@
+大家使用的时候，注意下如果直接fork可能会被ban，可以自己新建仓库 复制代码过去。
+
 # vercel-reverse-proxy
 [English README](./README_EN.md)
 
